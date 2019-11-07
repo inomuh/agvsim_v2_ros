@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>agv2_description</name>
+  <version>0.0.6</version>
+  <description>agv2_description</description>
+
+  <author>asda</author>
+  <maintainer email="todo@gmail.com">TODO</maintainer>
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+
+</package>

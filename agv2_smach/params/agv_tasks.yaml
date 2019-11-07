@@ -1,0 +1,22 @@
+---
+Tasks:
+  Task_1: [ {'State': 'Navigation', 'Waypoint': 'P2'},
+            {'State': 'Docking',    'Waypoint': 'P3'},
+            {'State': 'Navigation', 'Waypoint': 'P5'},
+            {'State': 'Docking',    'Waypoint': 'P6'},
+            {'State': 'Navigation', 'Waypoint': 'P9'},
+            {'State': 'Navigation', 'Waypoint': 'P12'},
+            {'State': 'Navigation', 'Waypoint': 'P14'},
+            {'State': 'Navigation', 'Waypoint': 'P19'}, 
+            {'State': 'Parking',    'Waypoint': 'P1'}]
+
+  Task_2: [ {'State': 'Navigation', 'Waypoint': 'P2'},
+            {'State': 'Docking',    'Waypoint': 'P3'},
+            {'State': 'Navigation', 'Waypoint': 'P5'},
+            {'State': 'Docking',    'Waypoint': 'P6'},
+            {'State': 'Navigation', 'Waypoint': 'P9'},
+            {'State': 'Navigation', 'Waypoint': 'P12'},
+            {'State': 'Navigation', 'Waypoint': 'P14'},
+            {'State': 'Navigation', 'Waypoint': 'P19'}, 
+            {'State': 'Parking',    'Waypoint': 'P1'}]
+  

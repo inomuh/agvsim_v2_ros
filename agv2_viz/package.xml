@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>agv2_viz</name>
+  <version>0.0.0</version>
+  <description>The agv2_viz package</description>
+
+  <maintainer email="hakan.gencturk@inovasyonmuhendislik.com">Hakan GENCTURK</maintainer>
+
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>rviz</run_depend>
+
+  <export>
+  </export>
+</package>

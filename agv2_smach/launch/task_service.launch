@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node pkg="agv2_smach" type="agv_task_plan_service.py" name="agv_task_plan_service" output="screen">
+
+    	<rosparam file="$(find agv2_smach)/params/agv_tasks.yaml" command="load"/>
+    
+	</node>
+</launch>

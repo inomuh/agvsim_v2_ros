@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>	
+
+   <!-- Gazebo  -->
+  <include file="$(find agv2_gazebo)/launch/factory.launch" />
+
+  <!-- Robot with diff drive -->
+  <include file="$(find agv2_gazebo)/launch/agv_v2_spawn.launch">
+	
+     <arg name="robot_name" value="/agv1" />
+     <arg name="robot_position" value="-x 4.175 -y 0.7 -z 0.094862 -R 0 -P 0 -Y 1.570796" />
+     
+   </include>
+
+  <!--  Laser Filter  -->
+
+   <node pkg="agv2_navigation" type="agv2_laser_angular_bound_filter" name="agv2_laser_angular_bound_filter">
+
+      <param name="pi" type="double" value="3.14"/>
+      <param name="degree" type="double" value="200.25"/>      
+
+	    <remap from="/new_laser" to="/agv1/scan" />
+
+   </node>
+
+</launch>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<include file="$(find agv2_smach)/launch/task_service.launch" />
+
+	<node pkg="agv2_smach" type="agv_task_smach.py" name="agv_task_smach" output="screen">
+
+    	<rosparam file="$(find agv2_smach)/params/agv_waypoints.yaml" command="load"/>
+    
+	</node>
+	
+</launch>

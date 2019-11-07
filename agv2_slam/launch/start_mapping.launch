@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <!-- Run agv1 pose ekf -->
+  <include file="$(find agv2_slam)/launch/agv_pose_ekf.launch" /> 
+  
+  <!-- Run agv1 laser slam -->
+  <include file="$(find agv2_slam)/launch/agv_laser_slam.launch" />
+
+  <!-- Run tf between map to odom for agv1  -->
+<!--  <node pkg="tf" type="static_transform_publisher" name="map_to_odom_agv1" args="0 0 0 0 0 0 /map /agv1/odom_combined 100"/>-->
+
+  
+</launch>
+
