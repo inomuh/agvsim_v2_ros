@@ -18,7 +18,7 @@ sudo apt-get install ros-kinetic-smach-viewer
 
 gedit ~/.bashrc
 
-export GAZEBO_MODEL_PATH=~/ <WORKSPACE_NAME> /src/agvsim_v2_ros/building_editor_models:~/ <WORKSPACE_NAME> /src/agvsim_v2_ros/model_editor_models:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=~/ <WORKSPACE_NAME> /src/agvsim_v2_ros/building_editor_models: ~/<WORKSPACE_NAME> /src/agvsim_v2_ros/model_editor_models:$GAZEBO_MODEL_PATH
 
 
 
