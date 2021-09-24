@@ -8,11 +8,11 @@
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
 
-<!--  <arg name="world_name" default="worlds/empty.world"/> -->
+  <arg name="world_name" default="worlds/empty.world"/> 
 
 <!--Note: the world_name is with respect to GAZEBO_RESOURCE_PATH environmental variable -->
  
-   <arg name="world_name" default="$(find agv2_gazebo)/worlds/demolabPlace22082019_v7_nocoll.world"/>
+<!--   <arg name="world_name" default="$(find agv2_gazebo)/worlds/demolabPlace22082019_v7_nocoll.world"/>-->
 
 
    <!-- Select World Template -->
