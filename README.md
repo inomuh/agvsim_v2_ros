@@ -29,3 +29,6 @@ catkin_make
 catkin_make install
 
 $ roslaunch agvsim_v2_start start_agv.launch
+
+simulation without navigation
+$ roslaunch agv2_gazebo start_agv_v2.launch
