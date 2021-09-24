@@ -7,23 +7,6 @@ find_package(catkin REQUIRED COMPONENTS
   gazebo_msgs 
   roscpp 
   rospy 
-  nodelet 
-  angles 
-  std_srvs 
-  geometry_msgs 
-  sensor_msgs 
-  nav_msgs 
-  tf 
-  tf2_ros 
-  dynamic_reconfigure 
-  rosgraph_msgs 
-  trajectory_msgs 
-  image_transport 
-  rosconsole
-  cv_bridge
-  polled_camera
-  camera_info_manager
-  interactive_marker_twist_server
 )
 
 include (FindPkgConfig)
@@ -75,25 +58,11 @@ catkin_package(
   vision_reconfigure 
   
   CATKIN_DEPENDS 
+  urdf
   message_generation 
   gazebo_msgs 
   roscpp 
   rospy 
-  nodelet 
-  angles 
-  std_srvs 
-  geometry_msgs 
-  sensor_msgs 
-  nav_msgs 
-  urdf 
-  tf 
-  tf2_ros
-  dynamic_reconfigure    
-  rosgraph_msgs 
-  trajectory_msgs 
-  image_transport 
-  rosconsole
-  camera_info_manager
   DEPENDS 
     gazebo 
   )
