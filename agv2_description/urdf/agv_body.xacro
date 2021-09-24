@@ -18,8 +18,8 @@
         <xacro:agv_ir base_link="base_link" link_name="ir6" xyz_ir="-0.20 -0.355 -0.068" rpy_ir="0 0 -1.570796" robot_ns="agv1"/>
         <xacro:agv_ir base_link="base_link" link_name="ir7" xyz_ir="0.20 -0.355 -0.068" rpy_ir="0 0 -1.570796" robot_ns="agv1"/>
         <xacro:agv_ir base_link="base_link" link_name="ir8" xyz_ir="0.503 -0.215 -0.03" rpy_ir="0 0 0" robot_ns="agv1"/>
-	<xacro:agv_wheel xyz_hub="0 -0.30 -0.06" rpy_hub="0 0 0" side="left"/>
-	<xacro:agv_wheel xyz_hub="0 0.30 -0.06" rpy_hub="0 0 0" side="right"/>
+	<xacro:agv_wheel xyz_hub="0 -0.30 -0.06" rpy_hub="0 0 0" side="right"/>
+	<xacro:agv_wheel xyz_hub="0 0.30 -0.06" rpy_hub="0 0 0" side="left"/>
 
 	
 	<xacro:agv_swivel xyz_caster="0.37 -0.22 -0.048" rpy_caster="0 0 0" side="front_right"/>
